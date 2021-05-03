@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " i ",
+        "iJi",
+        " i "
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "J": {
+            "item": "minecraft:jungle_trapdoor"
+        }
+    },
+    "result": {
+        "item": "iron_coated_trapdoor:ict",
+        "count": 1
+    },
+    "group": "coated"
+}

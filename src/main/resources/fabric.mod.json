@@ -12,6 +12,9 @@
   "icon": "assets/iron_coated_trapdoor/icon.png",
   "environment": "*",
   "entrypoints": {
+    "client": [
+      "ender.iron_coated_trapdoor.client.Iron_coated_trapdoorClient"
+    ],
     "main": [
       "ender.iron_coated_trapdoor.Iron_coated_trapdoor"
     ]
