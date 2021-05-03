@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "iron_coated_trapdoor",
+  "version": "${version}",
+  "name": "Iron Coated Trapdoor",
+  "description": "I needed this for a map soo i made it.",
+  "authors": [
+    "Ender"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/iron_coated_trapdoor/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ender.iron_coated_trapdoor.Iron_coated_trapdoor"
+    ]
+  },
+  "mixins": [
+    "iron_coated_trapdoor.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
