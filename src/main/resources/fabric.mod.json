@@ -8,7 +8,8 @@
     "Ender"
   ],
   "contact": {
-    "homepage": "https://github.com/theendercore/iron_coated_trapdoor"
+    "homepage": "https://github.com/theendercore/iron_coated_trapdoor",
+    "issues": "https://github.com/theendercore/iron_coated_trapdoor/issues"
   },
   "license": "All-Rights-Reserved",
   "icon": "assets/iron_coated_trapdoor/icon.png",
