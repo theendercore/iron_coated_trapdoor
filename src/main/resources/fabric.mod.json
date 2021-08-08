@@ -7,7 +7,9 @@
   "authors": [
     "Ender"
   ],
-  "contact": {},
+  "contact": {
+    "homepage": "https://github.com/theendercore/iron_coated_trapdoor"
+  },
   "license": "All-Rights-Reserved",
   "icon": "assets/iron_coated_trapdoor/icon.png",
   "environment": "*",
