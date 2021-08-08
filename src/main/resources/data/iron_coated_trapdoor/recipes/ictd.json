@@ -2,20 +2,19 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         " i ",
-        "iCi",
+        "iDi",
         " i "
     ],
     "key": {
         "i": {
             "item": "minecraft:iron_ingot"
         },
-        "C": {
-            "item": "minecraft:crimson_trapdoor"
+        "D": {
+            "tag": "minecraft:wooden_trapdoors"
         }
     },
     "result": {
         "item": "iron_coated_trapdoor:ict",
         "count": 1
-    },
-    "group": "coated"
+    }
 }

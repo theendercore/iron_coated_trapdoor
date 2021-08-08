@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "iron_coated_trapdoor:ictd"
+    ]
+  },
+  "criteria": {
+    "has_trap_door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+			  "tag": "minecraft:trapdoors"
+		  }
+        ]
+      }
+	},
+	"has_the_trap_door": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+					"items": ["iron_coated_trapdoor:ict"]
+				}
+			]
+		}
+	},
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "iron_coated_trapdoor:ictd"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_trap_door",
+	  "has_the_trap_door",
+      "has_the_recipe"
+    ]
+  ]
+}
